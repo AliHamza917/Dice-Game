@@ -44,8 +44,8 @@ const GamePage = () => {
                 setNumber(0)
             }else{
                 setScore(score-2)
-                setError('Wrong Guess')
-                setNumber(0)
+                setError('Wrong Guess Try Again')
+
             }
         }else{
 
